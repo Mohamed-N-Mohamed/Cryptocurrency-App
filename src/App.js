@@ -52,7 +52,7 @@ function App() {
 
         </div>
 
-        <div className="crypto-card flex justify-center items-center gap-8">
+    
           {filterArray.map((crypto) => {
             return(
               <UI key={crypto.id}
@@ -67,7 +67,7 @@ function App() {
               />
             )
           })}
-        </div>
+        
       </div>
      
     </div>
